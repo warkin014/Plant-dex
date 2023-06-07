@@ -1,0 +1,14 @@
+
+html {
+    height: 100%;
+    /* background: linear-gradient(to top , #272727, #383838); */
+  }
+  .update-status{
+    color: #FFFFFF;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  margin-left: 10%;
+  margin-top: 15px;
+  }

@@ -1,0 +1,66 @@
+/* home.css */
+/* 
+html {
+  height: 100%;
+  background: linear-gradient(to top , #272727, #383838);
+} */
+
+.body-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+.intro-title {
+  text-align: center;
+  background: linear-gradient(134.01deg, #3BF686 40.75%, #4CA9FF 90.52%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: justify;
+  text-align-last: left;
+  margin-top: 15px;
+  font-size: 24px;
+  width: 85%;
+}
+.info h2{
+  color: #FFFFFF;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+}
+.info p{
+  width: 70%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #EDCECE;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}.text-container {
+  flex: 1;
+}
+
+
+.plant-image{
+  width: 150px;
+  height: 150px;
+  margin-right: 20%;
+}
+@keyframes float {
+  0% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(0, 15px, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+.plant-image {
+  animation: float 3s infinite ease-in-out;
+}
