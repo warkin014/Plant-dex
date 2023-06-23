@@ -3,15 +3,7 @@
     margin-right: 10%;
     margin-top: 10px;
 }
-.full-container{
-  /* background: 'linear-gradient(to top, #272727, #383838)'; */
-  /* height: 100vh; */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 0;
-  background-size: cover;
-}
+
 
 
 body.weather-body {
